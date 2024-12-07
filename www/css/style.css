@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+h1 {
+  font-size: 1.8rem;
+  color: #007bff;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  font-size: 0.9rem;
+}
+
+.list-group-item div {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  font-size: 0.85rem;
+}
+
+textarea {
+  resize: none;
+}
+
+canvas {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.toast-container {
+  z-index: 1055;
+}
+
+.toast-body {
+  font-size: 1rem;
+}
